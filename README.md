@@ -15,10 +15,14 @@ Fast and Scalable: Processes large PDFs and handles queries quickly.
 
 # Technologies Used
 Programming Language: Python
+
 Libraries:
 PyPDF2: Extract text from PDFs.
+
 sentence-transformers: Generate vector embeddings.
+
 FAISS: Fast similarity search on embeddings.
+
 numpy: For numerical operations and embedding handling.
 
 
