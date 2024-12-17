@@ -4,9 +4,13 @@ A Retrieval-Augmented Generation (RAG) pipeline that enables users to query PDF 
 
 # Features
 PDF Text Extraction: Extracts text content from PDF files.
+
 Embeddings Generation: Converts extracted text into embeddings using a pre-trained model.
+
 Vector Database: Stores embeddings in a FAISS index for efficient similarity search.
+
 Query Handling: Accepts user queries, searches for relevant text, and returns context-rich responses.
+
 Fast and Scalable: Processes large PDFs and handles queries quickly.
 
 # Technologies Used
