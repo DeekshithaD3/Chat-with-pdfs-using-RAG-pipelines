@@ -17,13 +17,22 @@ Fast and Scalable: Processes large PDFs and handles queries quickly.
 Programming Language: Python
 
 Libraries:
+
 PyPDF2: Extract text from PDFs.
 
-sentence-transformers: Generate vector embeddings.
+streamlit - For building the web interface.
 
-FAISS: Fast similarity search on embeddings.
+dotenv - For loading environment variables (optional).
 
-numpy: For numerical operations and embedding handling.
+langchain - For splitting the text into manageable chunks.
+
+# Machine Learning Libraries
+
+scikit-learn - For TfidfVectorizer and cosine_similarity.
+
+numpy - For numerical computations (e.g., similarity operations).
+
+
 
 
 
